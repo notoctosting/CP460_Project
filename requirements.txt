@@ -1,0 +1,4 @@
+mpyc
+pycryptodome
+tf-encrypted
+zokrates-py # Only if ZKP is implemented
