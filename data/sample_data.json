@@ -1,0 +1,6 @@
+{
+    "Institution_A": {"returns": 0.05, "risk_score": 0.3},
+    "Institution_B": {"returns": 0.04, "risk_score": 0.25},
+    "Institution_C": {"returns": -0.01, "risk_score": 0.4}
+  }
+  
