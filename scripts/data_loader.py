@@ -6,7 +6,16 @@ def load_data(filepath):
         data = json.load(f)
     return data
 
-# Example usage:
+def get_all_returns(data):
+    """Extracts all returns from the dataset."""
+    returns = []
+    for institution, metrics in data.items():
+        returns.extend(metrics["returns"])
+    return returns
+
+# Example usage
 if __name__ == "__main__":
-    data = load_data('../data/sample_data.json')
-    print(data)
+    filepath = "../data/sample_data.json"
+    data = load_data(filepath)
+    all_returns = get_all_returns(data)
+    print(f"All Returns: {all_returns}")
