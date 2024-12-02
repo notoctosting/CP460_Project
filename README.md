@@ -1,5 +1,3 @@
-Here's the README content formatted as plain text to ensure you can copy it directly without browser-specific formatting issues. Simply copy and paste this text into your `README.md` file:
-
 ---
 
 # **Secure Multi-Party Computation Framework for Financial Metrics**
