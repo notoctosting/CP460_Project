@@ -1,6 +1,10 @@
 {
-    "Institution_A": {"returns": 0.05, "risk_score": 0.3},
-    "Institution_B": {"returns": 0.04, "risk_score": 0.25},
-    "Institution_C": {"returns": -0.01, "risk_score": 0.4}
-  }
-  
+  "Institution_A": {"returns": [0.05, 0.03, -0.01, 0.06, 0.02], "risk_score": 0.3},
+  "Institution_B": {"returns": [0.04, 0.02, 0.01, 0.03, -0.02], "risk_score": 0.25},
+  "Institution_C": {"returns": [-0.01, 0.01, 0.03, 0.04, 0.02], "risk_score": 0.4},
+  "Institution_D": {"returns": [0.07, 0.01, -0.03, 0.02, 0.05], "risk_score": 0.35},
+  "Institution_E": {"returns": [-0.02, 0.03, 0.01, -0.01, 0.04], "risk_score": 0.28},
+  "Market_Index": {"returns": [0.03, 0.02, 0.01]}
+
+
+}

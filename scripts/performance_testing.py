@@ -29,7 +29,7 @@ def performance_scalability_test():
     """
     Tests the scalability of secure computations with increasing dataset sizes.
     """
-    dataset_sizes = [100, 1000, 2500]
+    dataset_sizes = [100, 1000, 5000]
     secure_times = []
     plaintext_times = []
     for size in dataset_sizes:
